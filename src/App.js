@@ -1,25 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import RandomColor from './RandomColor';
+import YourColor from './YourColor';
+import UserColor from './UserColor';
+
+let GitHub = 'https://github.com/judithkuneth';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <RandomColor />
-        <p>This is a random color Hex Code.</p>
+    <header className="App-header">
+      {/* <RandomColor /> */}
+      <YourColor />
+      <UserColor />
+      <p>
+        This is my first React App :) <p></p>Check out my other
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          style={{ color: 'white' }}
+          href="https://www.github.com/judithkuneth"
         >
-          Learn React
+          {' '}
+          Projects
         </a>
-      </header>
-    </div>
+      </p>
+    </header>
   );
 }
 

@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
   color: white;
 }
@@ -12,7 +12,7 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -22,10 +22,10 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: black;
+  color: white;
 }
 
-.App-link {
+/* .App-link {
   color: #61dafb;
 }
 
@@ -36,8 +36,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.raco {
-  color: blue;
-}
+} */
