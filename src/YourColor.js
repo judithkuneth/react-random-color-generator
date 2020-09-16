@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import randomColor from 'randomcolor';
+import './YourColor.css';
 
 export default function YourColor() {
   const [inputHue, setInputHue] = useState();
@@ -11,7 +12,7 @@ export default function YourColor() {
   return (
     <>
       <h1 style={{ color: yourColor }}>Hey you!</h1>
-      Enter Color (red, blue, green,...)
+      Enter Color <br></br>e.g. red, blue, green,...
       <br />
       <p>{inputHue}</p>
       <input
@@ -21,7 +22,7 @@ export default function YourColor() {
         }}
       ></input>
       <br />
-      Enter Luminosity (dark, bright, light)
+      Enter Luminosity <br></br> e.g. dark, bright or light
       <br />
       <p>{inputLuminosity}</p>
       <input
@@ -41,8 +42,7 @@ export default function YourColor() {
         Get my color!
       </button>
       <h1 style={{ color: yourColor }}>
-        <p> </p>
-        This is a randomly {inputLuminosity} {inputHue} color: {yourColor}
+        This is a random {inputLuminosity} {inputHue} color: {yourColor}
       </h1>
     </>
   );

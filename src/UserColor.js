@@ -11,8 +11,8 @@ export default function UserColor() {
 
   return (
     <>
-      {/* <h1 style={{ color: userColor }}>Hey you!</h1> */}
-      or enter a Hex Code:
+      <h1 style={{ color: userColor }}>Hello again!</h1>
+      You may also enter a Hex Code:
       <br />
       <br />
       <input
