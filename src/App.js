@@ -1,10 +1,6 @@
 import React from 'react';
-// import logo from './logo.svg';
-import RandomColor from './RandomColor';
 import YourColor from './YourColor';
 import UserColor from './UserColor';
-
-let GitHub = 'https://github.com/judithkuneth';
 
 function App() {
   return (
@@ -12,7 +8,7 @@ function App() {
       <YourColor />
       <UserColor />
       <p>
-        This is my first React App :)
+        This is my first React App
         <br></br>Check out my other
         <a
           style={{ color: 'black' }}

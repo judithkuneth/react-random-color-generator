@@ -1,11 +1,6 @@
 import React, { useState } from 'react';
 import randomColor from 'randomcolor';
 
-// randomColor({
-//   hue: '',
-//   luminosity: '',
-// });
-
 export default function UserColor() {
   const [userColor, setUserColor] = useState(randomColor({}));
 
@@ -32,12 +27,6 @@ export default function UserColor() {
         <p> </p>
         This is how {userColor} looks like
       </h1>
-      {/* <a
-        style={{ color: userColor }}
-        href="https://www.example.com"
-      >
-        This is a Link
-      </a> */}
     </>
   );
 }

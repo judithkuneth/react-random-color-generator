@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import randomColor from 'randomcolor';
-import './YourColor.css';
+import './styles.css';
 
 export default function YourColor() {
   const [inputHue, setInputHue] = useState();
